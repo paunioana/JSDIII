@@ -20,4 +20,13 @@
           init-method="performInit"
           destroy-method="performDestroy">
     </bean>
+    <bean id="myAspect"
+          class="ro.MyAspect"/>
+    <aop:config>
+        <aop:aspect id="aspect" ref="myAspect">
+            <!--            &lt;!&ndash; @Before &ndash;&gt;-->
+            <!--            <aop:pointcut id="pointCutBefore" expression="execution(* com.javatpoint.Operation.*(..))"/>-->
+            <!--            <aop:before method="myadvice" pointcut-ref="pointCutBefore"/>-->
+        </aop:aspect>
+    </aop:config>
 </beans>

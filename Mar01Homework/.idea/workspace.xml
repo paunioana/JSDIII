@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b792837-85d2-4652-a62f-c2f3f11a5848" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/MyAspect.java" afterDir="false" />
+    <list default="true" id="2b792837-85d2-4652-a62f-c2f3f11a5848" name="Changes" comment="almost finished homework">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/MyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/MyAspect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +70,16 @@
       <updated>1677685817247</updated>
       <workItem from="1677685818793" duration="5388000" />
       <workItem from="1677921334037" duration="212000" />
-      <workItem from="1677921587559" duration="3278000" />
+      <workItem from="1677921587559" duration="3855000" />
     </task>
+    <task id="LOCAL-00001" summary="almost finished homework">
+      <created>1677924950834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677924950834</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,5 +95,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="almost finished homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="almost finished homework" />
   </component>
 </project>
