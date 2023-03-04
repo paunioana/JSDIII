@@ -8,11 +8,16 @@
     http://www.springframework.org/schema/aop/spring-aop-3.0.xsd ">
     <aop:aspectj-autoproxy/>
 
-    <bean id="myTeacher"
-          class="com.devmind.springapp.JavaTeacher">
+    <bean id="protoTask"
+          class="ro.Task"
+          scope="prototype"
+          init-method="performInit"
+          destroy-method="performDestroy">
     </bean>
-
-    <bean id="historyTeacher"
-          class="com.devmind.springapp.HistoryTeacher">
+    <bean id="singletonTask"
+          class="ro.Task"
+          scope="singleton"
+          init-method="performInit"
+          destroy-method="performDestroy">
     </bean>
 </beans>
