@@ -1,2 +1,8 @@
-package ro;public @interface Author {
+package ro;
+
+
+public @interface Author {
+    String name();
+
+    String date();
 }
