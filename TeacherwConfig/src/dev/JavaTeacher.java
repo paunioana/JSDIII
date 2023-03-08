@@ -1,12 +1,9 @@
-package ro;
+package dev;
 
-import lombok.Getter;
-import org.springframework.stereotype.Component;
-import ro.HomeworkService;
-import ro.ITeacher;
+import dev.HomeworkService;
+import dev.ITeacher;
+import org.springframework.beans.factory.annotation.Autowired;
 
-@Getter
-@Component(value="myTeacher")
 public class JavaTeacher implements ITeacher {
     private WisdomWordsService wisdomService;
     private HomeworkService homeworkService;
@@ -17,7 +14,8 @@ public class JavaTeacher implements ITeacher {
         return "Code is pain";
     }
 
-    // constructor unic care primeste ca parametru un obiect de tipul ro.WisdomWordsService
+    // constructor unic care primeste ca parametru un obiect de tipul dev.WisdomWordsService
+    @Autowired
     public JavaTeacher(WisdomWordsService wisdomService, HomeworkService homeworkService) {
         this.wisdomService = wisdomService;
         this.homeworkService = homeworkService;
@@ -32,12 +30,18 @@ public class JavaTeacher implements ITeacher {
     public String getWisdom() {
         return wisdomService.getMessage();
     }
-
+    public int getAge() {
+        return age;
+    }
 
     public void setAge(int age) {
         this.age = age;
     }
 
+
+    public String getWorkPlace() {
+        return workPlace;
+    }
 
     public void setWorkPlace(String workPlace) {
         this.workPlace = workPlace;
