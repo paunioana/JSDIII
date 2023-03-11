@@ -1,7 +1,7 @@
 package ro;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-public class App {
+public class MyFirstSpringAnnotationApp {
 
 
 

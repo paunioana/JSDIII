@@ -8,7 +8,8 @@ import java.util.UUID;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 
-@Data @Author(name="pioana01101", date="06/03/2023")
+@Data
+@Author(name="pioana01101", date="06/03/2023")
 @Component("singletonTask")
 public class Task {
     private String taskName;
