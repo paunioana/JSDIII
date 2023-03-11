@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b792837-85d2-4652-a62f-c2f3f11a5848" name="Changes" comment="12:25 Saturday">
+      <change afterPath="$PROJECT_DIR$/../WSI/src/ConfigurationClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WSI/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mar06Homework/src/ro/JavaTeacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mar06Homework/src/ro/JavaTeacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeacherwConfig/src/dev/JavaTeacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TeacherwConfig/src/dev/JavaTeacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +77,10 @@
       <workItem from="1677921587559" duration="3921000" />
       <workItem from="1678116330642" duration="799000" />
       <workItem from="1678128426031" duration="73000" />
+      <workItem from="1678480003883" duration="20000" />
+      <workItem from="1678480147045" duration="31000" />
+      <workItem from="1678517923516" duration="212000" />
+      <workItem from="1678521272157" duration="483000" />
     </task>
     <task id="LOCAL-00001" summary="almost finished homework">
       <created>1677924950834</created>

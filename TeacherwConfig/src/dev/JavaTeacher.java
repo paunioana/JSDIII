@@ -3,6 +3,7 @@ package dev;
 import dev.HomeworkService;
 import dev.ITeacher;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class JavaTeacher implements ITeacher {
     private WisdomWordsService wisdomService;

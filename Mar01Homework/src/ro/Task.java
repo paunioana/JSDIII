@@ -19,7 +19,7 @@ public class Task {
     }
 
     public void run() throws InterruptedException {
-        System.out.println("I'm going to sleep now for " + this.executionTime + " seconds...");
+        System.out.println(this.taskName + ": I'm going to sleep now for " + this.executionTime + " seconds...");
         TimeUnit.SECONDS.sleep(this.executionTime);
     }
     private void performInit() {
@@ -31,7 +31,7 @@ public class Task {
     }
 
     public void performDestroy() throws Exception {
-        System.out.println(this.taskName);
+        System.out.println(this.taskName + " was destroyed!");
         numberOfTasks--;
     }
 

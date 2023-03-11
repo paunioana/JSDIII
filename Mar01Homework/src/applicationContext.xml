@@ -11,8 +11,7 @@
     <bean id="protoTask"
           class="ro.Task"
           scope="prototype"
-          init-method="performInit"
-          destroy-method="performDestroy">
+          init-method="performInit" >
     </bean>
     <bean id="singletonTask"
           class="ro.Task"

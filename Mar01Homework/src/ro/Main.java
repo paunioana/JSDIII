@@ -9,11 +9,10 @@ public class Main {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         System.out.println("----- Before getBean calls");
 
-        context.getBean("protoTask", Task.class);
+        Task protoTask = context.getBean("protoTask", Task.class);
         Task singletonTask = context.getBean("singletonTask", Task.class);
         singletonTask.run();
-        singletonTask.performDestroy();
-        context.getBean("protoTask", Task.class);
+        protoTask.run();
 
 
 
