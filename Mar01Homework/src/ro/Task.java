@@ -1,5 +1,6 @@
 package ro;
 
+import lombok.Synchronized;
 import org.springframework.beans.factory.DisposableBean;
 
 import java.util.UUID;
@@ -13,14 +14,15 @@ public class Task {
     public static int numberOfTasks = 0;
     private static int id = -1;
 
-    private static int generateId() {
+
+    private synchronized static int generateId() {
         id++;
         return id;
     }
 
     public void run() throws InterruptedException {
         System.out.println(this.taskName + ": I'm going to sleep now for " + this.executionTime + " seconds...");
-        TimeUnit.SECONDS.sleep(this.executionTime);
+        Thread.sleep(this.executionTime);
     }
     private void performInit() {
         numberOfTasks++;

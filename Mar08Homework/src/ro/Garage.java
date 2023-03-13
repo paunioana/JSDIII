@@ -9,8 +9,8 @@ public class Garage {
     @Autowired
     @Qualifier("masina")
     Automobil myCar;
-    Motocicleta myMoto;
-    Autocar myAutocar;
+    Automobil myMoto;
+    Automobil myAutocar;
 
     public Garage(Motocicleta myMoto){
         this.myMoto = myMoto;
@@ -22,7 +22,7 @@ public class Garage {
     }
 
     public void listGarageItems(){
-        System.out.println(this.toString());
+        System.out.println(this.toString() + " contains: " +this.myCar.toString() + ", " + this.myMoto.toString() + ", " + this.myAutocar.toString());
     }
 
 }

@@ -1,8 +1,5 @@
-package dev;
+package org.example;
 
-import dev.HomeworkService;
-import dev.JavaTeacher;
-import dev.MathTeacher;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

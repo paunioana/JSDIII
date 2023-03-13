@@ -7,7 +7,7 @@ public class Main {
         IAnimal secondDog = context.getBean("secondDog", IAnimal.class);
 
         IAnimal myCat = context.getBean("myCat", IAnimal.class);
-
+        System.out.println(firstDog==secondDog);
         // call methods on the bean
         System.out.println(firstDog.makeSound());
         System.out.println(secondDog.makeSound());

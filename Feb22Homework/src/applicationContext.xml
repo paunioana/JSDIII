@@ -9,12 +9,12 @@
     <aop:aspectj-autoproxy/>
 
     <bean id="firstDog"
-          class="Dog" scope="prototype">
+          class="Dog" >
         <property name="animalName" value="Mojo"/>
     </bean>
 
     <bean id="secondDog"
-          class="Dog" scope="prototype">
+          class="Dog" >
         <property name="animalName" value="Jojo"/>
     </bean>
     <bean id ="myCat"

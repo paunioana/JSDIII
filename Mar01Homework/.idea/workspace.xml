@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b792837-85d2-4652-a62f-c2f3f11a5848" name="Changes" comment="11/03 10:02" />
+    <list default="true" id="2b792837-85d2-4652-a62f-c2f3f11a5848" name="Changes" comment="11/03 10:02">
+      <change afterPath="$PROJECT_DIR$/../Mar08Homework/src/ro/VehicleComponents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Feb22Homework/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Feb22Homework/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Feb22Homework/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Feb22Homework/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06Homework/src/ro/JavaTeacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mar06Homework/src/ro/JavaTeacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar08Homework/src/ro/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mar08Homework/src/ro/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar08Homework/src/ro/Autocar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mar08Homework/src/ro/Autocar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar08Homework/src/ro/Garage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mar08Homework/src/ro/Garage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar08Homework/src/ro/Masina.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mar08Homework/src/ro/Masina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar08Homework/src/ro/Motocicleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mar08Homework/src/ro/Motocicleta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar08Homework/src/ro/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mar08Homework/src/ro/Motor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeacherwConfig/TeacherwConfig.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TeacherwConfig/TeacherwConfig.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeacherwConfig/src/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeacherwConfig/src/dev/JavaTeacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TeacherwConfig/src/dev/JavaTeacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeacherwConfig/src/dev/TeacherConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TeacherwConfig/src/dev/TeacherConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeacherwConfig/src/file.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TeacherwConfig/resources/file.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +91,8 @@
       <workItem from="1678480147045" duration="31000" />
       <workItem from="1678517923516" duration="212000" />
       <workItem from="1678521272157" duration="554000" />
+      <workItem from="1678524260606" duration="247000" />
+      <workItem from="1678530425989" duration="208000" />
     </task>
     <task id="LOCAL-00001" summary="almost finished homework">
       <created>1677924950834</created>

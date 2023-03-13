@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Masina implements Automobil{
-    Motor motor;
+public class Masina extends VehicleComponents implements Automobil{
+
     @Override
     public void travel() {
         System.out.println("Am fost la munte si mi-a placut");
@@ -27,4 +27,6 @@ public class Masina implements Automobil{
     public void setMotor(Motor motor) {
         this.motor = motor;
     }
+
+
 }

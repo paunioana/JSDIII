@@ -1,15 +1,16 @@
 package ro;
 
+import lombok.Data;
 import lombok.Getter;
 import org.springframework.stereotype.Component;
 import ro.HomeworkService;
 import ro.ITeacher;
 
-@Getter
+@Data
 @Component(value="myTeacher")
 public class JavaTeacher implements ITeacher {
-    private WisdomWordsService wisdomService;
-    private HomeworkService homeworkService;
+    private final WisdomWordsService wisdomService;
+    private final HomeworkService homeworkService;
     private int age;
     private String workPlace;
     @Override
@@ -17,11 +18,7 @@ public class JavaTeacher implements ITeacher {
         return "Code is pain";
     }
 
-    // constructor unic care primeste ca parametru un obiect de tipul ro.WisdomWordsService
-    public JavaTeacher(WisdomWordsService wisdomService, HomeworkService homeworkService) {
-        this.wisdomService = wisdomService;
-        this.homeworkService = homeworkService;
-    }
+
 
     @Override
     public String getHomeWork() {

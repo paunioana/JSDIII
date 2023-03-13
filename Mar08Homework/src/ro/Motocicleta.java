@@ -7,8 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Data
 @Component
-public class Motocicleta implements Automobil{
-    Motor motor;
+public class Motocicleta extends VehicleComponents implements Automobil{
     int power;
     String name;
     public Motocicleta(Motor motor){
