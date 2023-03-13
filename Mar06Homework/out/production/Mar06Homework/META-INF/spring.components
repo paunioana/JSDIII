@@ -1,0 +1,5 @@
+ro.HomeworkService=org.springframework.stereotype.Component
+ro.JavaTeacher=org.springframework.stereotype.Component
+ro.MathTeacher=org.springframework.stereotype.Component
+ro.Task=org.springframework.stereotype.Component
+ro.WisdomWordsService=org.springframework.stereotype.Component

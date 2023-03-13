@@ -1,0 +1,5 @@
+ro.Autocar=org.springframework.stereotype.Component
+ro.Garage=org.springframework.stereotype.Component
+ro.Masina=org.springframework.stereotype.Component
+ro.Motocicleta=org.springframework.stereotype.Component
+ro.Motor=org.springframework.stereotype.Component
