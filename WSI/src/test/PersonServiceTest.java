@@ -12,10 +12,11 @@ import org.mockito.junit.MockitoJUnitRunner;
 
 @RunWith(MockitoJUnitRunner.class)
 public class PersonServiceTest {
+
     @Mock
     PersonCache personCache;
 
-    @Mock
+
     PersonService personService;
 
     @Test

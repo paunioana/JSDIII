@@ -1,3 +1,2 @@
 devmind.ConfigurationClass=org.springframework.stereotype.Component
 devmind.PersonCache=org.springframework.stereotype.Component
-devmind.PersonService=org.springframework.stereotype.Component

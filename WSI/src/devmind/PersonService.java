@@ -1,8 +1,5 @@
 package devmind;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class PersonService {
     private PersonCache personCache;
 

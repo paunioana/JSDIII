@@ -11,7 +11,6 @@ public class PersonCache {
 
     public PersonCache() {
         people = new ArrayList<>();
-        // gets people from a database
     }
 
     public Person findByName(String name) {
