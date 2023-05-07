@@ -5,9 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class Hm16Application {
+public class MyApp {
 	public static void main(String[] args) {
-		SpringApplication.run(Hm16Application.class, args);
+		SpringApplication.run(MyApp.class, args);
 	}
 
 }
