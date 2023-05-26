@@ -1,0 +1,55 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 16px;
+    width: 250px;
+    height: 400px;
+}
+
+.question {
+    margin-top: 24px;
+    color: #000;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.description {
+    flex-grow: 1; /* cadou de la Dibi */
+}
+
+.separator {
+    width: 32px;
+    height: 4px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    background-color: red;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.blue {
+    background-color: #0097A7;
+}
+
+span .description {
+    color: rgba(0, 0, 0, 0.68);
+}
+
+.potato {
+    height: 150px;
+
+}
