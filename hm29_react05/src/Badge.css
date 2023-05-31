@@ -1,0 +1,29 @@
+.badgeContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.badge {
+    position: relative;
+    margin: 50px 10px 0;
+    /*border: 1px solid black;*/
+    background: #f6f6f6;
+    width: 200px;
+    border-radius: 8px;
+    padding: 40px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /*height: 100px;*/
+}
+.badge img {
+    position: absolute;
+    top: -32px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.badge h4, .badge h5, .badge .bio {
+    margin: 10px 0 0;
+}
+
