@@ -2,15 +2,15 @@ import {useEffect, useState} from "react";
 import {Link, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow} from "@mui/material";
 import {useParams} from "react-router-dom";
 import "./ReposComponent.css";
+import {getReposDetails} from "./GitHubApi";
 
 const ReposComponent = (props) => {
     const userName = props.userName;
     const [repos, setRepos] = useState([]);
     useEffect(() => {
-        fetch("https://api.github.com/users/"+ userName +"/repos")
-            .then(response => response.json())
-            .then((data) => {
-                setRepos(data);
+        getReposDetails(userName)
+            .then((response) => {
+                setRepos(response.data);
             }).catch((err) => {
             console.log(err.message);
         });

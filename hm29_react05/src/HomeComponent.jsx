@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {useParams, useNavigate} from "react-router-dom";
 import Badge from "./Badge";
+import {getUserDetails} from "./GitHubApi";
 
 const HomeComponent = () => {
     const navigate = useNavigate();
@@ -12,13 +13,13 @@ const HomeComponent = () => {
     const [avatar_url, setAvatar_url] = useState();
 
     useEffect(() => {
-        fetch("https://api.github.com/users/"+ userName)
-            .then(response => response.json())
-            .then((data) => {
-                setFollowers(data["followers"]);
-                setFollowing(data["following"]);
-                setPublic_repos(data["public_repos"]);
-                setAvatar_url(data["avatar_url"]);
+        getUserDetails(userName)
+            .then((response) => {
+                // console.log(response.data);
+                setFollowers(response.data["followers"]);
+                setFollowing(response.data["following"]);
+                setPublic_repos(response.data["public_repos"]);
+                setAvatar_url(response.data["avatar_url"]);
             }).catch((err) => {
             console.log(err.message);
         });

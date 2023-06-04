@@ -1,17 +1,16 @@
 import {useEffect, useState} from "react";
 import {useNavigate, useParams} from "react-router-dom";
 import {FormControl, InputLabel, MenuItem, Select} from "@mui/material";
-
+import {getReposDetails} from "./GitHubApi";
 const SelectRepository = (props) => {
     let [repoIndex, setRepoIndex] = useState(0);
     let [repos, setRepos] = useState([]);
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch("https://api.github.com/users/"+ props.userName +"/repos")
-            .then(response => response.json())
-            .then((data) => {
-                setRepos(data);
+        getReposDetails(props.userName)
+            .then((response) => {
+                setRepos(response.data);
             }).catch((err) => {
             console.log(err.message);
         });

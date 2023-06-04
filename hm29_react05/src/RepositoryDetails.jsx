@@ -1,5 +1,6 @@
 import {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
+import {getReposDetails} from "./GitHubApi";
 
 const RepositoryDetails = (props) => {
     const { repositoryId } = useParams();
@@ -9,21 +10,18 @@ const RepositoryDetails = (props) => {
     const [found, setFound] = useState(false);
 
     useEffect(() => {
-        console.log(props.userName);
-        fetch("https://api.github.com/users/"+ props.userName +"/repos")
-            .then(response => response.json())
-            .then((data) => {
+        getReposDetails(props.userName)
+            .then((response) => {
                 var numberID = Number(repositoryId);
-                for(let i =0; i <data.length; i++) {
-                    console.log(data[i].id);
-                    console.log(data[i].id === numberID);
-                    if(data[i].id === numberID) {
-                        setRepoOwner(data[i].owner.login);
-                        setRepoURL(data[i].html_url);
-                        setRepoName(data[i].name);
+                for(let i =0; i <response.data.length; i++) {
+                    console.log(response.data[i].id);
+                    console.log(response.data[i].id === numberID);
+                    if(response.data[i].id === numberID) {
+                        setRepoOwner(response.data[i].owner.login);
+                        setRepoURL(response.data[i].html_url);
+                        setRepoName(response.data[i].name);
                         setFound(true);
                         break;
-
                     }
                 }
             }).catch((err) => {
