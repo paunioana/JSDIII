@@ -1,5 +1,5 @@
 import React from "react";
-import {Box, Button, Modal, TextField} from "@mui/material";
+import {Box, Button, Modal} from "@mui/material";
 import BadgeIcon from '@mui/icons-material/Badge';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import LocationCityIcon from '@mui/icons-material/LocationCity';
@@ -9,11 +9,13 @@ import DomainIcon from '@mui/icons-material/Domain';
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 import CheckIcon from '@mui/icons-material/Check';
 import CloseIcon from '@mui/icons-material/Close';
+import {useSelector} from "react-redux";
 
 const UserModal = (props) => {
     const onClose = props.onClose;
-    const userData = props.modalData.user;
-    const todoData = props.modalData.todo;
+    const modalData = useSelector(store => store.modalData);
+    const userData = modalData.user;
+    const todoData = modalData.todo;
 
     return (
         <Modal open onClose={() => onClose(undefined)}>
